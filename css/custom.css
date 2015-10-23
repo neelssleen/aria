@@ -1,0 +1,141 @@
+html,body{
+    height:100%;
+    width: 100%;
+}
+.content
+{
+  min-width: 100%;    
+   min-height: 100%;    
+   height:100%;
+  overflow-x: hidden;        
+}
+.page-wrapper
+{ 
+   min-height: 100%;    
+   height:100%;  
+   width: 105%;    
+}
+.listener-board{
+    height:100%;
+    margin-left:-15px;
+    margin-right: -15px;
+    background-color: rgba(236, 236, 236, 0.33);
+}
+.listener-heading{
+    border:none;
+    text-align: center;
+    height:12%
+}
+.listener-heading>div{
+    background-color:#3498db;
+    padding:20px;
+    color:#fff;
+    border:none;
+}
+.listener-heading>div.activetab{
+    background-color:rgba(236, 236, 236, 0.33);
+    color:#3498db;
+    padding:20px;
+    border:none;
+}
+.listener-content{
+    height:88%;
+}
+.textBoxbottom{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #2ecc71;
+    padding: 1%;
+    font-size: 100%;
+    font-weight: 500;
+    color: #000;
+    text-align: center
+}
+
+.circelicon{
+    height:55px;
+    margin:9px;
+    text-align:center;
+    padding:5px;
+    font-size:200%;
+    color:#fff;
+    border-radius:50%;
+}
+.smallcircleicon{
+    width:40px;
+    height:40px;
+    font-size: 200%;
+    padding:5px; 
+    color:#fff;
+    border-radius:50%;
+    text-align:center;
+}
+.clickicon{
+    cursor: pointer;
+}
+.signinbox{
+padding:3%;
+margin-top:5%;
+}
+
+.btn-orange{
+background-color:#f39c12;
+font-size: 200%;
+font-weight: 900;
+color:#fff;
+border:2px solid #fff;
+padding:2%;
+text-align:center
+}
+
+.btn-orange:hover{
+    background-color:#fff;
+    color:#f9bf3b;
+    border:2px solid #fff;
+}
+
+.btn-green{
+background-color:#2ecc71;
+font-size: 200%;
+font-weight: 900;
+color:#fff;
+border:2px solid #fff;
+padding:2%;
+text-align:center
+}
+
+.btn-green:hover{
+    background-color:#fff;
+    color:#2ecc71;
+    border:2px solid #2ecc71;
+}
+.pointer{
+    cursor: pointer
+}
+.editor-section{
+    margin-left: -15px;
+    margin-right: -15px;
+    height:100%;
+}
+.editor-sidebar{
+    border:none;
+    height:100%;
+    background-color:#ECECEC;
+}
+.editor-content{
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 100%;
+}
+.editor-body-header{
+    height:10%;
+    background-color: #fff;
+}
+.editor-body{
+    background-color:rgba(238, 238, 238, 0.41);
+    height:90%;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    padding:15px;
+   /* font-family: 'PT Sans', sans-serif;*/
+}

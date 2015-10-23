@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html ng-app="projectx">
+    <head>
+        <base href='/'>
+        <!--library files-->
+        <script type="text/javascript" src="lib/angularjs/angular.js"></script>
+        <script type="text/javascript" src="lib/angularjs/angular-route.js"></script>
+        <script type="text/javascript" src="lib/socket-io/socket.io.js"></script>
+
+        <!--modules js file-->
+        <script type="text/javascript" src="./modules/homescreen/js/homescreen.js"></script>
+        <script type="text/javascript" src="./modules/signin/js/signin.js"></script>
+        <script type="text/javascript" src="./modules/signup/js/signup.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+
+        <!--stylesheet-->
+        <link rel="stylesheet" href="css/custom.css" type="text/css">
+        <link rel="stylesheet" href="lib/bootstrap/bootstrap-theme.min.css" type="text/css">
+        <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="lib/font-awesome-4.3.0/css/font-awesome.min.css" type="text/css">
+        <!--<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
+        
+        
+        <!--services--->
+        <script type="text/javascript" src="root/services/socket.js"></script>
+        
+    </head>
+    <body ng-controller="projectxctrl">
+        <div class="content"  ng-view=""></div>
+    </body>
+</html>
